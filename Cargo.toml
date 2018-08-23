@@ -1,0 +1,9 @@
+[package]
+name = "simplecs"
+version = "0.1.0"
+authors = ["kyren <kerriganw@gmail.com>"]
+
+[dependencies]
+failure = "0.1.2"
+downcast-rs = "1.0"
+anymap = "0.12"
