@@ -182,7 +182,7 @@ impl<T> GenerationalIndexArray<T> {
             let entry = &mut self.0[gen_index.index];
 
             if let Some(e) = entry.take() {
-                if e.generation == e.generation {
+                if e.generation == gen_index.generation {
                     return Some(e.value);
                 } else {
                     *entry = Some(e);
