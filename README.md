@@ -1,4 +1,4 @@
-## An API demonstration of an alternative ECS data structure style ##
+## A demonstration of an alternative ECS API style ##
 
 **Don't use this!** It was uploaded as a demonstration of an alternate API style
 for ECS systems that focuses on just the "EC" part of ECS: just a fancy
